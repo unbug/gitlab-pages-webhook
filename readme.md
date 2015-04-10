@@ -74,7 +74,7 @@ Web Hook Guide
 ## Add your web hook server URL to your repo
 YourPorject --> Settings --> Web Hooks --> URL values is Your web hook server RUL --> click "Add web Hook"。
 
-### Make sure your repo is Publick？ [#](#toc_5)
+### Make sure your repo is Publick
 YourPorject --> Settings --> Edit Project --> select Public mode: Public access。
 
 ### deploy a branch(default is `master`) and a tag
