@@ -2,6 +2,7 @@
 var http = require('http');
 var Url = require('url');
 var util = require('util');
+var colors = require('colors');
 var spawn = require('child_process').spawn;
 var exec = require('child_process').exec;
 var fs = require('fs');
