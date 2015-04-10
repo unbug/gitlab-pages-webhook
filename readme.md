@@ -8,22 +8,13 @@ Install
 npm install -g gitlab-pages-webhook
 ```
 
-Project Commands
+Web hook server configuration
 ================
+## Start a web hook server
 ```shell
 //gitlab-pages-webhook [listen port] [gitlab host,...]
 gitlab-pages-webhook 8163 http://mygitlab.com,http://mygitlab2.com
 ```
-
-Web Hook Guide
-===============
-
-## Required
- - Nginx
- - NPM,RVM,Git
- - Python,Ruby,NodeJs
- - Yeoman,Bower,Grunt,Gulp
- - CoffeeScript,SCSS,Compass,Less
 
 ## Set a nginx proxy to your web hook server,such as
 ```shell
@@ -68,6 +59,17 @@ server {
     }
 }
 ```
+
+Web Hook Guide
+===============
+
+## Required
+ - Nginx
+ - NPM,RVM,Git
+ - Python,Ruby,NodeJs
+ - Yeoman,Bower,Grunt,Gulp
+ - CoffeeScript,SCSS,Compass,Less
+
 
 ## Add your web hook server URL to your repo
 YourPorject --> Settings --> Web Hooks --> URL values is Your web hook server RUL --> click "Add web Hook"。

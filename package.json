@@ -1,0 +1,22 @@
+{
+  "name": "gitlab-pages-webhook",
+  "version": "0.0.2",
+  "description": "Set up your gitlab-pages server base on gitlab's web hook!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unbug/gitlab-pages-webhook.git"
+  },
+  "keywords": [
+    "gitlab-pages"
+  ],
+  "author": "unbug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unbug/gitlab-pages-webhook/issues"
+  },
+  "homepage": "https://github.com/unbug/gitlab-pages-webhook"
+}
