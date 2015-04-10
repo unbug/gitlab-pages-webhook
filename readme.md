@@ -63,14 +63,6 @@ server {
 Web Hook Guide
 ===============
 
-## Required
- - Nginx
- - NPM,RVM,Git
- - Python,Ruby,NodeJs
- - Yeoman,Bower,Grunt,Gulp
- - CoffeeScript,SCSS,Compass,Less
-
-
 ## Add your web hook server URL to your repo
 YourPorject --> Settings --> Web Hooks --> URL values is Your web hook server RUL --> click "Add web Hook"。
 
