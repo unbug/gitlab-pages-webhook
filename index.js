@@ -5,9 +5,6 @@ var util = require('util');
 var spawn = require('child_process').spawn;
 var exec = require('child_process').exec;
 var fs = require('fs');
-/**
- * node index [listen port] [gitlab host,...]
- */
 
 //prevent node.js from crashing
 process.on('uncaughtException', function (err) {
@@ -161,5 +158,9 @@ function serverHandler(req, res) {
 var webServer;
 webServer = http.createServer(serverHandler);
 webServer.listen(PORT, HOST, function () {
-    console.log('server on ' + HOST + ':' + PORT);
+    util.log('==========gitlab-pages-webhook [listen port] [gitlab host,...]==========='.red.bold);
+    util.log('==================================================================='.red.bold);
+    util.log('             SERVER IS READY ON ' +(HOST).red.bold+' PORT '+(PORT+'              ').red.bold);
+    util.log('==================================================================='.red.bold);
+    util.log('==================================================================='.red.bold);
 });
