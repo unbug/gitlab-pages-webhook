@@ -1,6 +1,6 @@
 {
   "name": "gitlab-pages-webhook",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Set up your gitlab-pages server base on gitlab's web hook!",
   "main": "index.js",
   "scripts": {

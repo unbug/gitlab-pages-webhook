@@ -1,6 +1,6 @@
 Readme
 =========
-Github-pages is cool,but how about gitlab?This project helps you to set up a web hook server for your gitlab,so your can deoply your gitlab-pages,it's easier then your image,try it out.
+Github-pages is cool,but what about gitlab?This project helps you to set up a web hook server for your gitlab,so your can deoply your gitlab-pages,it's easier and powerful then your image,try it out.
 
 Install
 ==========
@@ -15,6 +15,7 @@ Web hook server configuration
 //gitlab-pages-webhook [listen port] [gitlab host,...]
 gitlab-pages-webhook 8163 http://mygitlab.com,http://mygitlab2.com
 ```
+gitlab hosts tells the hook to filter which host to listene,in this case,only gitlab host http://mygitlab.com and http://mygitlab2.com will deploy to your server,http://mygitlab3.com will not.
 
 ## Set a nginx proxy to your web hook server,such as
 ```shell
