@@ -1,6 +1,6 @@
 Readme
 =========
-Github-pages is cool,but what about gitlab?This project helps you to set up a web hook server for your gitlab,so your can deoply your gitlab-pages,it's easier and powerful then your image,try it out.
+Github-pages is cool,but what about gitlab?This project helps you to set up a web hook server for your gitlab,so you can deoply your gitlab-pages,it's easier and powerful then your image,try it out.
 
 Install
 ==========
